@@ -108,11 +108,14 @@ a{
 /* header
 /* --------------------------- */
 .header{
-  padding: 24px 3.5vw 0;
+  border-radius: 40px;
+  padding: 24px 3.5vw;
+  margin: 10px;
+  background-color: aliceblue;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 98%;
   box-sizing: border-box;
   z-index: 1;
 }
@@ -220,4 +223,18 @@ a{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.kv-wrapper{
+  /* The image used */
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+
+  /* Half height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  
 }
