@@ -238,3 +238,8 @@ a{
   background-size: cover;
   
 }
+.img-cat{
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+}
