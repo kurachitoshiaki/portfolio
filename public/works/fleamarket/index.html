@@ -18,26 +18,57 @@
 
 </head>
 <body>
-  <!-- header -->
-  <header class="header flex-rr">
-    <div class="site-title"><a href="../../">Your Name</a></div>
-    <nav class="header-nav">
-      <ul class="nav-list flex-rc">
-        <li class="nav-item current"><a href="../../">Works</a></li>
-        <li class="nav-item"><a href="../../about/">About</a></li>
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../../index.html">Kurachi's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto smooth-scroll">
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">Works
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".../about" data-offset="90">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../about/" data-offset="90">contact</a>
+        </li>
       </ul>
-    </nav>
-  </header>
-  <!-- //header -->
-
-  <!-- main -->
-  <main>
-    <div class="page-title-wrapper works-page rc-creation-bg">
+      <!-- Social Icon  -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link">
+            <i class="fab fa-github light-green-text-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            <i class="fab fa-twitter light-green-text-2"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+  <div class="kv-wrapper">
+    <div class="kv-copy text-center">
+      <p class="kv-name">Fleamarket</p>
+      <p class="kv-message p-fontsize">
+        フリマサイトのコピーサイト
+      </p>
+    </div>
+  </div>
       <h1 class="page-title works-page">
         Fleamarket
         <span class="page-title_jp">フリマサイトのコピーサイト</span>
       </h1>
-    </div>
     <div class="main-bg">
     <!-- overview -->
     <section class="section-wrapper">
@@ -46,13 +77,13 @@
           概要
           <span class="works-section-title_en">overview</span>
         </h2>
-        <p class="overview-text">
+        <p class="overview-text p-fontsize">
           どんな課題なのかの説明と、どのような点に注意して作成したのかを簡潔に書きましょう。どんな課題なのかの説明と、どのような点に注意して作成したのかを簡潔に書きましょう。どんな課題なのかの説明と、どのような点に注意して作成したのかを簡潔に書きましょう。どんな課題なのかの説明と、どのような点に注意して作成したのかを簡潔に書きましょう。
         </p>
         <ul class="works-info-list">
-          <li class="works-info-item">制作期間：制作期間を入力します</li>
-          <li class="works-info-item">担当箇所：デザイン</li>
-          <li class="works-info-item">URL：なし</li>
+          <li class="works-info-item p-fontsize">制作期間：制作期間を入力します</li>
+          <li class="works-info-item p-fontsize">担当箇所：デザイン</li>
+          <li class="works-info-item p-fontsize">URL：なし</li>
         </ul>
       </div>
     </section>
@@ -63,28 +94,28 @@
       <div class="section-inner">
         <h2 class="works-section-title">
           制作プロセス
-          <span class="works-section-title_en">Proccess</span>
+          <span class="works-section-title_en p-fontsize">Proccess</span>
         </h2>
 
         <!-- cliant-research -->
         <h3 class="process-title">開発意図</h3>
         <ul class="description-list">
-          <li class="description-list-item">ターゲットの属性・特徴を箇条書きにしましょう</li>
-          <li class="description-list-item">ターゲットの属性・特徴を箇条書きにしましょう</li>
-          <li class="description-list-item">ターゲットの属性・特徴を箇条書きにしましょう</li>
-          <li class="description-list-item">ターゲットの属性・特徴を箇条書きにしましょう</li>
-          <li class="description-list-item">ターゲットの属性・特徴を箇条書きにしましょう</li>
+          <li class="description-list-item p-fontsize">ターゲットの属性・特徴を箇条書きにしましょう</li>
+          <li class="description-list-item p-fontsize">ターゲットの属性・特徴を箇条書きにしましょう</li>
+          <li class="description-list-item p-fontsize">ターゲットの属性・特徴を箇条書きにしましょう</li>
+          <li class="description-list-item p-fontsize">ターゲットの属性・特徴を箇条書きにしましょう</li>
+          <li class="description-list-item p-fontsize">ターゲットの属性・特徴を箇条書きにしましょう</li>
         </ul>
         </p>
 
         <!-- スキル -->
         <h3 class="process-title">スキル</h3>
-        <p class="description-text">
+        <p class="description-text p-fontsize">
           獲得したスキルをアイコンで貼り付け
         </p>
 
         <h3 class="process-title">総評</h3>
-        <p class="description-text">
+        <p class="description-text p-fontsize">
           開発して得られたもの、難しかった点など
         </p>
       </div>
@@ -98,5 +129,13 @@
     <small>&copy;2020 Your name</small>
   </footer>
   <!-- //footer -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
 </body>
 </html>
