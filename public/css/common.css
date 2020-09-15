@@ -1,6 +1,13 @@
 /* --------------------------- */
 /* Base
 /* --------------------------- */
+a{
+  word-break: break-all;
+}
+.skill-icon{
+  width: 5%;
+  height: 5%;
+}
 .p-fontsize{
   font-size: 14px;
 }
@@ -203,6 +210,10 @@ a{
   .nav-item{
     margin: 0 0 4px 0;
     font-size: 1.4rem;
+  }
+  .skill-icon{
+    width: 10%;
+    height: 10%;
   }
 }
 

@@ -18,6 +18,7 @@
   bottom: 6.7%;
   left: 7.1%;
   text-align: left;
+  margin: 3%;
 }
 .page-title_jp{
   text-align-last: left;
@@ -127,4 +128,10 @@
     bottom: 5%;
     left: 5%;
   }
+}
+
+.page-title{
+  font-size: 3.6rem;
+  font-weight: bold;
+  position: static;
 }
