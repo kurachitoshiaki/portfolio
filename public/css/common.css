@@ -1,6 +1,9 @@
 /* --------------------------- */
 /* Base
 /* --------------------------- */
+.p-fontsize{
+  font-size: 14px;
+}
 html{
   font-size: 62.5%;
 }
@@ -40,14 +43,14 @@ a{
   margin-bottom: 40px;
 }
 .section-title_jp{
-  font-size: 1.2rem;
+  font-size: 16px;
   display: block;
   color: #777;
   margin-top: 10px;
 }
 
 /* ボタン要素 */
-.btn{
+.button{
   color: #fff;
   display: block;
   line-height: 48px;
