@@ -8,6 +8,9 @@
 /* ----------------------------- */
 /* profile
 /* ----------------------------- */
+.kv-wrapper{
+  color: white;
+}
 .profile-wrapper{
   align-items: center;
   margin-bottom: 60px;
