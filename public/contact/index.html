@@ -1,0 +1,117 @@
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+<style>
+  .card{
+    max-width: 700px;
+    margin: 10px auto;
+  }
+</style>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../">Works
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../about/">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./">contact</a>
+      </li>
+    </ul>
+</nav>
+<!--/.Navbar-->
+<!-- Material form contact -->
+<div class="card">
+
+  <h5 class="card-header info-color white-text text-center py-4">
+      <strong>Contact us</strong>
+  </h5>
+
+  <!--Card content-->
+  <div class="card-body px-lg-5 pt-0">
+
+      <!-- Form -->
+      <form class="text-center" style="color: #757575;" action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="081e1c6a-c111-43af-abfa-ae39939da5d9">
+        <input type="hidden" name="subject" value="ポートフォリオからのお問い合わせ">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+          <!-- Name -->
+          <div class="md-form mt-3">
+              <input type="text" name="name" id="materialContactFormName" class="form-control" required>
+              <label for="materialContactFormName">Name</label>
+          </div>
+
+          <!-- E-mail -->
+          <div class="md-form">
+              <input type="email" name="email" id="materialContactFormEmail" class="form-control"required>
+              <label for="materialContactFormEmail">E-mail</label>
+          </div>
+
+          <!--Message-->
+          <div class="md-form">
+              <textarea id="materialContactFormMessage" name="message" class="form-control md-textarea" rows="3" required></textarea>
+              <label for="materialContactFormMessage">Message</label>
+          </div>
+
+          <!-- Send button -->
+          <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
+
+      </form>
+      <!-- Form -->
+
+  </div>
+
+</div>
+<!-- Material form contact -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script>
+$(document).ready(function(){
+  $(function () {
+    $("form").validate({
+      rules: {
+        name: {
+          required: "*お名前を入力してください", // 入力必須チェック
+          rangelength: [1, 50], // 最小１文字、最大５０文字
+        },
+        email: {
+          required: "*メールアドレスを入力してください", // 入力必須チェック
+          email: "*正しいメールアドレス形式で入力してください", // メールアドレス形式チェック
+        },
+        message: {
+          required: "*メッセージを入力してください" // 入力必須チェック
+        }
+      }
+    });
+  });
+});
+</script>
