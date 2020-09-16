@@ -243,15 +243,18 @@ a{
 .kv-wrapper{
   /* The image used */
   background-image: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
-
+  
   /* Half height */
   height: 100%;
-
+  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
   
+}
+.fleamarket-wrapper{
+  background-image: url('../images/fleamarket.png');
 }
 .kv-wrapper-about{
   /* The image used */
