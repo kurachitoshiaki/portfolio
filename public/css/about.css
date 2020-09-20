@@ -183,4 +183,7 @@
   .subsection:last-of-type{
     margin-bottom: 80px;
   }
+  .about-text{
+    text-align: center;
+  }
 }
