@@ -256,6 +256,9 @@ a{
 .fleamarket-wrapper{
   background-image: url('../images/fleamarket.png');
 }
+.chatspace-wrapper{
+  background-image: url('../images/chatspace.png');
+}
 .kv-wrapper-about{
   /* The image used */
   background-image: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
