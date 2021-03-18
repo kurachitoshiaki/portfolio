@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laravel SNS</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Noto+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link rel="stylesheet" href="../../css/works.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../../index.html">Kurachi's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto smooth-scroll">
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">Works
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".../about" data-offset="90">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../contact/" data-offset="90">contact</a>
+        </li>
+      </ul>
+      <!-- Social Icon  -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/kurachitoshiaki">
+            <i class="fab fa-github light-green-text-2"></i>GitHub
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/kurachi_program">
+            <i class="fab fa-twitter light-green-text-2"></i>Twitter
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+  <div class="kv-wrapper sns-wrapper">
+    <div class="kv-copy text-center">
+      <p class="kv-name"></p>
+      <p class="kv-message p-fontsize">
+      </p>
+    </div>
+  </div>
+      <h1 class="page-title works-page">
+        laravel SNS
+        <span class="page-title_jp">SNS風交流サイト</span>
+          <!-- スキル -->
+          <p class="process-title">skill</p>
+          <p class="description-text p-fontsize">
+            <img src="../../images/php.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/laravel.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/html-5.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/css-3.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/javascript.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/vue.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/github-icon.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/mysql.svg" alt="スキル" class="skill-icon">
+            <img src="../../images/heroku.svg" alt="スキル" class="skill-icon">
+          </p>
+      </h1>
+          <!-- overview -->
+    <section class="section-wrapper">
+      <div class="section-inner">
+        <h2 class="works-section-title">
+          概要
+          <span class="works-section-title_en">overview</span>
+        </h2>
+        <p class="overview-text p-fontsize">
+          SNSでおなじみのハッシュタグやいいね機能を盛り込んだチャットアプリ<br>
+          CRUDに乗っ取って基本機能をLaravelを使って実現<br>
+          シンプルで無駄のないアプリを目指しました
+        </p>
+        <ul class="works-info-list">
+          <li class="works-info-item p-fontsize">開発人数:1人</li>
+          <li class="works-info-item p-fontsize">制作期間：2週間</li>
+          <li class="works-info-item p-fontsize">担当箇所：設計〜実装〜テスト</li>
+          <li class="works-info-item p-fontsize">git：<a href="https://github.com/kurachitoshiaki/laravel-sns">https://github.com/kurachitoshiaki/laravel-sns</a></li>
+          <li class="works-info-item p-fontsize">url：<a href="http://laravel-sns-202009.herokuapp.com/">http://laravel-sns-202009.herokuapp.com/</a></li>
+          <p class="app-id">テストログイン用</p>
+          <p class="app-id">e-mail: test@gmail.com</p>
+          <p class="app-id">password: testtest</p>
+          
+        </ul>
+      </div>
+    </section>
+    <!-- //overview -->
+    <div class="main-bg">
+
+
+    <!-- process -->
+    <section class="section-wrapper">
+      <div class="section-inner">
+        <h2 class="works-section-title">
+          制作プロセス
+          <span class="works-section-title_en p-fontsize">Proccess</span>
+        </h2>
+
+        <!-- cliant-research -->
+        <h3 class="process-title">開発意図</h3>
+        <ul class="description-list">
+          <li class="description-list-item p-fontsize">基本であるCRUDの機能をLaravelを使って作成</li>
+          <li class="description-list-item p-fontsize">SNSおなじみの機能を実装することで学習</li>
+          <li class="description-list-item p-fontsize">Vue.jsを扱った非同期通信の実装</li>
+        </ul>
+        </p>
+
+        <h3 class="process-title">総評</h3>
+        <p class="description-text p-fontsize">
+          Laravelを網羅的に学習するため、基本機能を盛り込んで作りました。<br>
+          Vue.jsに初挑戦したため、かかった時間の８割Vue.jsです。（笑）<br>
+          Laravelの基本を学習した上で新しい挑戦もできて良い開発経験を積めました。
+        </p>
+      </div>
+      <a href="../../" class="button link-btn block-center">back to my works</a>
+    </section>
+  </main>
+  <!-- //main -->
+  <!-- footer -->
+  <footer class="footer text-center main-bg">
+    <small>&copy;2021 Kurachi Toshiaki</small>
+  </footer>
+  <!-- //footer -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+</body>
+</html>
