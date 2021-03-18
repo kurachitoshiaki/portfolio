@@ -257,11 +257,20 @@ a{
   background-size: cover;
   
 }
+.app-id{
+  font-size: 16px;
+}
 .fleamarket-wrapper{
   background-image: url('../images/fleamarket.png');
 }
 .chatspace-wrapper{
   background-image: url('../images/chatspace.png');
+}
+.matching-wrapper{
+  background-image: url('../images/matching-app.png');
+}
+.sns-wrapper{
+  background-image: url('../images/laravel-sns.png');
 }
 .kv-wrapper-about{
   /* The image used */
